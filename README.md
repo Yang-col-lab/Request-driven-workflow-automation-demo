@@ -1,0 +1,2 @@
+# Request-driven-workflow-for-Gaussian-Multiwfn-automation-demo
+Zero-code pipeline for automated Gaussian16 → formchk → Multiwfn workflows, with optional RDKit conformer generation. Supports plain-language requests (Chinese/English) to run geometry optimization, checkpoint conversion, and quantitative ESP/surface analysis. Results and original requests are automatically appended to log.txt for reproducibility.
