@@ -1,0 +1,7 @@
+mcp
+
+# RDKit (choose one of the following):
+# If using pip (Linux wheels): 
+rdkit-pypi
+# If using conda (recommended):
+# rdkit

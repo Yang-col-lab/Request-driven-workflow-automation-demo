@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Gaussian outputs (do not version large/intermediate files) ----
+*.chk
+*.fchk
+*.log
+*.rwf
+*.tmp
+*.tsl
+*.scr
+
+# ---- Multiwfn temporary files ----
+multiwfn_script.txt
+output.log
+
+# ---- Project-specific caches ----
+*.cache
+*.bak
+
+# ---- Example / runtime artifacts ----
+results/
+outputs/
+runs/
+
+# ---- Optional: comment out if you want to keep these in git ----
+# *.wfn
+# *.wfx
+# *.molden
+# *.cube  # often large; keep if you want to share density/ESP grids
