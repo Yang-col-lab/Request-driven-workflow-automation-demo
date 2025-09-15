@@ -1,4 +1,4 @@
-# Gaussian + Multiwfn Automation
+# Request-driven-workflow-automation-demo
 ## One-Line Request → Results Appended to `log.txt`
 
 This repository enables a **zero-code, request-driven** workflow for quantitative surface analysis (e.g., ESP/statistics on an isodensity surface). You simply write your requirement in plain language (Chinese or English), and the pipeline automatically runs **structure preparation → Gaussian16 → `formchk` → Multiwfn**, then appends both your **input request** and the **final results** to **`log.txt`**.
